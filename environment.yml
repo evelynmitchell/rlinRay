@@ -3,5 +3,5 @@ name: rllib-environment
 
 dependencies:
   - python=3.10
-  - rllib
+  - ray-rllib
 
