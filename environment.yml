@@ -4,5 +4,3 @@ name: rllib
 dependencies:
   - python=3.10
   - cmake
-  - tensorflow
-  - pytorch==2.1.1
