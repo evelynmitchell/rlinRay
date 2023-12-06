@@ -4,4 +4,5 @@ name: rllib-environment
 dependencies:
   - python=3.10
   - ray-rllib
+  - flask
 
