@@ -1,5 +1,5 @@
 ---
-name: rllib-environment
+name: myenv 
 
 dependencies:
   - python=3.10
