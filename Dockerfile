@@ -12,6 +12,7 @@ SHELL ["/bin/bash", "--login", "-c"]
 
 # Demonstrate the environment is activated:
 RUN echo "Make sure flask is installed:"
+RUN pip install flask
 RUN python -c "import flask"
 
 # The code to run when container is started:
