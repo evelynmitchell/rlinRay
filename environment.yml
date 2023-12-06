@@ -3,5 +3,5 @@ name: rllib
 
 dependencies:
   - python=3.10
-  - build-essential
+  - cmake
 
