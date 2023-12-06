@@ -11,7 +11,7 @@ SHELL ["conda", "run", "-n", "rllib", "/bin/bash", "-c"]
 
 # Demonstrate the environment is activated:
 RUN echo "Make sure ray is installed:"
-RUN pip install "ray[rllib]" torch "gym[atari]" "gym[accept-rom-license]" atari_py
+RUN pip install "ray[rllib]" torch "gym[atari]" "gym[accept-rom-license]" ale_py
 RUN rllib train --run APPO --env CartPole-v0 --torch
 
 # The code to run when container is started:
