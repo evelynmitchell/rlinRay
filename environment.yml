@@ -5,4 +5,4 @@ dependencies:
   - python=3.10
   - cmake
   - tensorflow
-  - torch==2.1.1
+  - pytorch==2.1.1
