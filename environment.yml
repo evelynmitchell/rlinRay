@@ -3,9 +3,4 @@ name: rllib
 
 dependencies:
   - python=3.10
-  - "ray[rllib]" 
-  - torch 
-  - "gym[atari]" 
-  - "gym[accept-rom-license]" 
-  - atari_py
 
