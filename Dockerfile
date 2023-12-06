@@ -50,6 +50,7 @@ SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
 
 # Demonstrate the environment is activated:
 RUN echo "Make sure flask is installed:"
+RUN conda install flask
 RUN python -c "import flask"
 
 # The code to run when container is started:
