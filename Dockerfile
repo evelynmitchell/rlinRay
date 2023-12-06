@@ -1,4 +1,6 @@
 FROM continuumio/miniconda3
+# Thanks to https://pythonspeed.com/articles/activate-conda-dockerfile/
+# for making this possible. Thanks Itamar!
 
 WORKDIR /app
 
